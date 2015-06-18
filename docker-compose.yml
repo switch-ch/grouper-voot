@@ -1,0 +1,22 @@
+web:
+  build: .
+  # command: bundle exec rails server -e production -b 0.0.0.0 #-p 3000
+  ports:
+    - "80:80"
+  links:
+    - db
+    - ldap
+  # volumes:
+  #   - .:/myapp
+  # env_file:
+  #   - '.env.web'
+
+db:
+  image: mysql
+  ports:
+    - "3306"
+
+ldap:
+  image: dinkel/openldap
+  # ports:
+  #   - "6379"
