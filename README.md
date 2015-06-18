@@ -1,13 +1,18 @@
 # grouper-voot
 
+This Docker image contains additionally the Grouper Voot Connector
+
 Currently based on https://github.com/UniconLabs/grouper-demo-docker
 
-Get it started with;
+Build it:
 
-    docker build --tag="chrohrer/grouper-voot" github.com/switch-ch/grouper-voot
+    $ docker build --tag="chrohrer/grouper-voot" github.com/switch-ch/grouper-voot
 
+Start it:
+    
+    $ docker run -d -p 10389:389 -p 8080:8080 -p 3306:3306 --name="grouper" uchrohrer/grouper-voot
 
-
+----------------------------------------------------------------
 
 ## Overview
 This Docker image contains a fully built Ldap, MySql, and Grouper environment. The Grouper component has the Grouper UI, Grouper Web Services, and an active Grouper Daemon which runs the Grouper Loader and PSP modules.
