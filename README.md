@@ -4,11 +4,11 @@ Currently based on https://github.com/UniconLabs/grouper-demo-docker
 
 Get it started with;
 
-    docker build github.com/switch-ch/grouper-demo-docker
+    docker build github.com/switch-ch/grouper-voot
     
 An additional tag can be added to allow for easier reference
 
-    docker build --tag="unicon/grouper-demo" github.com/UniconLabs/grouper-demo-docker
+    docker build --tag="chrohrer/grouper-voot" github.com/switch-ch/grouper-voot
 
 
 
