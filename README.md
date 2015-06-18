@@ -1,5 +1,18 @@
 # grouper-voot
 
+Currently based on https://github.com/UniconLabs/grouper-demo-docker
+
+Get it started with;
+
+    docker build github.com/switch-ch/grouper-demo-docker
+    
+An additional tag can be added to allow for easier reference
+
+    docker build --tag="unicon/grouper-demo" github.com/UniconLabs/grouper-demo-docker
+
+
+
+
 ## Overview
 This Docker image contains a fully built Ldap, MySql, and Grouper environment. The Grouper component has the Grouper UI, Grouper Web Services, and an active Grouper Daemon which runs the Grouper Loader and PSP modules.
 
