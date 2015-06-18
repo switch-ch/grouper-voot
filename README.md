@@ -10,7 +10,7 @@ Build it:
 
 Start it:
     
-    $ docker run -d -p 10389:389 -p 8080:8080 -p 3306:3306 --name="grouper" uchrohrer/grouper-voot
+    $ docker run -d -p 10389:389 -p 8080:8080 -p 3306:3306 --name="grouper" chrohrer/grouper-voot
 
 ----------------------------------------------------------------
 
